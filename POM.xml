@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.wipo.int</groupId>
+    <artifactId>wfaces</artifactId>
+    <packaging>jar</packaging>
+    <version>0.1.0</version>
+
+ <scm>
+    <connection>scm:git:https://gitbox.apache.org/repos/asf/maven-scm.git</connection>
+    <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/maven-scm.git</developerConnection>
+    <url>https://github.com/apache/maven-scm/tree/${project.scm.tag}</url>
+    <tag>wfaces-0.1.0</tag>
+  </scm> 
+    <!-- <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties> -->
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+		<finalName>wfaces</finalName>
+	</build>
+    </project>
